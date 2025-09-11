@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Peanuts</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" sizes="192x192" href="images/favicon.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+    <header class="header">
+        <input class="header__checkbox" type="checkbox" id="open-menu">
+        <label for="open-menu" class="header__open-nav-button" role="button">=</label>
+        <div class="header__logo-container">
+            <img class="header__logo" src="images/logo_pc.png" alt="Logo Peanuts">
+        </div>
+        <nav class="header__nav">
+            <ul class="header__nav-list">
+                <li class="header__nav-item"><a href="#profile">Story</a></li>
+                <li class="header__nav-item"><a href="#family">Family</a></li>
+                <li class="header__nav-item"><a href="#form">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="profile" id="profile">
+        <h1 class="profile__title">The story of Peanuts</h1>
+        <div class="profile__wrapper">
+            <div class="profile__img-container">
+                <picture>
+                    <source srcset="images/peanuts_vertical.jpg" media="(min-width: 600px)">
+                    <img class="profile__img" src="images/peanuts_max.png">
+                </picture>
+            </div>
+            <div class="profile__data-container">
+                <div class="profile__data">
+                    <div class="profile__description">
+                        <p>On October 2, 1950, Charles M. Schulz introduced a brand-new comic strip with an unlikely round-headed hero, “Good ol’ Charlie Brown.” PEANUTS was born.</p>
+                        <p>In 2025, Peanuts Worldwide celebrates the 75th Anniversary of Charles Schulz’ beloved creation, and the whole gang of personalities who have joined the cast along the way: philosophical Linus and his crabby big sister Lucy; piano-playing Schroeder; attention-grabbing Sally; history-making Franklin; not to mention Peppermint Patty, Marcie, Pigpen (and his famous dust cloud) and more. But no one has stolen the show quite like Snoopy, the coolest beagle on the planet.</p>
+                        <p>Throughout 2025, Peanuts will be celebrating the 75th Anniversary with an array of “Memorable Moments” – new and classic entertainment, worldwide exhibitions and activities, collaborations, and more. Because happiness is…75 years of Peanuts!</p>
+                    </div>
+                    <div class="profile__characters-container">
+                        <h2 class="profile__subtitle">Main Characters</h2>
+                        <ul>
+                            <li class="profile__character">
+                                <div class="load-bar">
+                                    <div class="load-bar__bar bar--100">100%</div>
+                                </div>
+                                <span class="profile__character-name">Snoopy</span>
+                            </li>
+                            <li class="profile__character">
+                                <div class="load-bar">
+                                    <div class="load-bar__bar bar--95">95%</div>
+                                </div>
+                                <span class="profile__character-name">Charlie Brown</span>
+                            </li>
+                            <li class="profile__character">
+                                <div class="load-bar">
+                                    <div class="load-bar__bar bar--85">85%</div>
+                                </div>
+                                <span class="profile__character-name">Woodstock</span>
+                            </li>
+                            <li class="profile__character">
+                                <div class="load-bar">
+                                    <div class="load-bar__bar bar--75">75%</div>
+                                </div>
+                                <span class="profile__character-name">Lucy</span>
+                            </li><li class="profile__character">
+                                <div class="load-bar">
+                                    <div class="load-bar__bar bar--70">70%</div>
+                                </div>
+                                <span class="profile__character-name">Linus</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <section class="family" id="family">
+        <h2 class="family__title"> Snoopy's Family</h2>
+        <div class="family__project-container">
+            <div class="family__project">
+                <h2 class="family__project-name">Spike</h2>
+                <img class="family__project-img family--one" src="images/spike-bw.avif">
+            </div>
+            <div class="family__project">
+                <h2 class="family__project-name">Belle</h2>
+                <img class="family__project-img family--two" src="images/belle-bw.avif">
+            </div>
+            <div class="family__project">
+                <h2 class="family__project-name">Marbles</h2>
+                <img class="family__project-img family--three" src="images/marbles-bw.avif">
+            </div>
+            <div class="family__project">
+                <h2 class="family__project-name">Olaf</h2>
+                <img class="family__project-img family--four" src="images/olaf-bw.avif">
+            </div>
+            <div class="family__project">
+                <h2 class="family__project-name">Andy</h2>
+                <img class="family__project-img family--five" src="images/andy-bw.avif">
+            </div>
+            <div class="family__project">
+                <h2 class="family__project-name">Snoopy’s Mom and Dad</h2>
+                <img class="family__project-img family--six" src="images/momdad-bw.avif">
+            </div>
+    </section>
+    <section class="form" id="form">
+        <h2 class="form__title">CONTACT</h2>
+        <form class="form__form">
+            <div class="form__input-container">
+                <label>Nombre
+                    <input type="text" placeholder="John">
+                </label>
+            </div>
+            <div class="form__input-container">
+                <label>Apellidos
+                    <input type="text" placeholder="Doe">
+                </label>
+            </div>
+            <div class="form__input-container">
+                <label>E-mail
+                    <input type="email" placeholder="email@example.com">
+                </label>
+            </div>
+            <div class="form__input-container">
+                <label>Mensaje
+                    <textarea placeholder="Your message..."></textarea>
+                </label>
+            </div>
+            <div class="form__input-container">
+                <input type="submit">
+            </div>
+        </form>
+    </section>
+    <footer>
+        <strong>Peanuts</strong> - Copyright
+    </footer>
+</body>
+</html>
