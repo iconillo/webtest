@@ -45,8 +45,8 @@ div, ul, nav, header, footer, a, li, label, body {
     display: none;
     background-color: #fff;
     position: absolute;
-    height: 100vh;
-    width: 100vw;
+    height: 100dvh;
+    width: 100dvw;
     top: 0;
     z-index: -1;
 }
@@ -54,7 +54,7 @@ div, ul, nav, header, footer, a, li, label, body {
 .header__nav-list {
     display: flex;
     flex-direction: column;
-    height: 40vh;
+    height: 40dvh;
     margin: auto;
     justify-content: space-evenly;
 }
@@ -275,7 +275,7 @@ h1, h2 {
 .family {
     background-color: #fff;
     color: #020505;
-    min-height: 100vh;
+    min-height: 100dvh;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -302,7 +302,7 @@ h1, h2 {
     width: 100%;
     gap: 12px;
     padding: 12px;
-    min-height: 90vh;
+    min-height: 90dvh;
 }
 
 .family__project {
@@ -364,7 +364,7 @@ h1, h2 {
 /* ----- CONTACT SECTION ------ */
 
 .form {
-    min-height: 60vh;
+    min-height: 60dvh;
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -538,4 +538,5 @@ footer {
     to {
         width: 70%;
     }
+
 }
